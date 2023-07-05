@@ -1,0 +1,1128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sahyog Samvriddhi Foundation</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-3">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-2 px-lg-3">
+            <img class="img-fluid" src="img/logo4.jpg" alt="">
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="about.html" class="nav-item nav-link">About us</a>
+                <a href="team.html" class="nav-item nav-link">Our Team</a>
+                <a href="gallery.html" class="nav-item nav-link active">Gallery</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">More</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="contact.php" class="dropdown-item">Contact</a>
+                        <a href="testimonial.html" class="dropdown-item">Our Volunteers</a>
+                        <a href="reach.html" class="dropdown-item">Our Reach</a>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- <a href="donate.html" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block rounded-circle">Donate Now<i class="fa fa-arrow-right ms-3"></i></a> -->
+        </div>
+        <a href="donate.php" class="btn btn-primary py-md-7 px-md-10 me-7 animated slideInLeft fs-5 h-50 ">Donate Now</a>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary py-5 mb-5 page-header">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h1 class="display-3 text-white animated slideInDown">Gallery</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                            <!-- <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li> -->
+                            <li class="breadcrumb-item text-white active" aria-current="page">Gallery</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Categories Start -->
+    <!-- <div class="container-xxl py-5 category">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Services</h6>
+                <h1 class="mb-5">Services Categories</h1>
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-7 col-md-6">
+                    <div class="row g-3">
+                        <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
+                            <a class="position-relative d-block overflow-hidden" href="">
+                                <img class="img-fluid" src="img/cat-1.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h5 class="m-0">Education</h5>
+                                    <small class="text-primary">Giving Education</small>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                            <a class="position-relative d-block overflow-hidden" href="">
+                                <img class="img-fluid" src="img/cat-2.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h5 class="m-0">Shelter</h5>
+                                    <small class="text-primary">Giving Shelter</small>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                            <a class="position-relative d-block overflow-hidden" href="">
+                                <img class="img-fluid" src="img/cat-3.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h5 class="m-0">Food</h5>
+                                    <small class="text-primary">Giving Food</small>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
+                    <a class="position-relative d-block h-100 overflow-hidden" href="">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/cat-4.jpg" alt="" style="object-fit: cover;">
+                        <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin:  1px;">
+                            <h5 class="m-0">Clothes</h5>
+                            <small class="text-primary">Giving Clothes</small>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Categories Start -->
+
+
+    <!-- Courses Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">work</h6>
+                <h1 class="mb-5">Our Work</h1>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            
+                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <a href="img/go1.jpg" data-lightbox="roadtrip"><img src="img/go1.jpg" class="d-block w-100" alt="..."></a>
+                                        <!-- <img src="img/book1.jpg" class="d-block w-100" alt="..."> -->
+                                    </div>
+                                    <div class="carousel-item ">
+                                        <a href="img/go2.jpg" data-lightbox="roadtrip"><img src="img/go2.jpg" class="d-block w-100" alt="..."></a>
+                                        <!-- <img src="img/book2.jpg" class="d-block w-100" alt="..."> -->
+                                    </div>
+                                   
+                                </div>
+                            </div>
+    
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <!-- <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a> -->
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <!-- <h3 class="mb-0">$149.00</h3> -->
+                            <h5 class="mb-4">Distribution of Rashan in Gorakhpur </h5>
+                            <div class="mb-3">
+                                <!-- <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small> -->
+                                
+                                     <small>Our rashan distribution to stranded labours in Gorakhpur Uttar Pradesh.</small>
+                            </div>
+                            <br/><br>
+                        </div>
+                        <div class="d-flex border-top">
+                            <!-- <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            
+                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <a href="img/awr1.jpg" data-lightbox="roadtrip"><img src="img/awr1.jpg" class="d-block w-100" alt="..."></a>
+                                        <!-- <img src="img/awr1.jpg" class="d-block w-100" alt="..."> -->
+                                    </div>
+                                    <div class="carousel-item ">
+                                        <a href="img/awr2.jpg" data-lightbox="roadtrip"><img src="img/awr2.jpg" class="d-block w-100" alt="..."></a>
+                                        <!-- <img src="img/awr2.jpg" class="d-block w-100" alt="..."> -->
+                                    </div>
+                                    <div class="carousel-item ">
+                                        <a href="img/awr3.jpg" data-lightbox="roadtrip"><img src="img/awr3.jpg" class="d-block w-100" alt="..."></a>
+                                        <!-- <img src="img/awr3.jpg" class="d-block w-100" alt="..."> -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <!--<a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a>-->
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <!-- <h3 class="mb-0">$149.00</h3> -->
+                            <h5 class="mb-4">Educational Drive</h5>
+                            <div class="mb-3">
+                                <!-- <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small> -->
+                                <small>Educational Awareness Drive by Team Sahyog Samvriddhi Foundation.</small>
+                               
+                            </div>
+                            <br><br><br>
+                        </div>
+                        <div class="d-flex border-top">
+                            <!-- <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                           
+                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <a href="img/rep2.jpg" data-lightbox="roadtrip"><img src="img/rep2.jpg" class="d-block w-100" alt="..."></a>
+                                        <!-- <img src="img/book1.jpg" class="d-block w-100" alt="..."> -->
+                                    </div>
+                                    <div class="carousel-item ">
+                                        <a href="img/rep3.jpg" data-lightbox="roadtrip"><img src="img/rep3.jpg" class="d-block w-100" alt="..."></a>
+                                        <!-- <img src="img/book2.jpg" class="d-block w-100" alt="..."> -->
+                                    </div>
+                                    <div class="carousel-item ">
+                                        <a href="img/rep4.jpg" data-lightbox="roadtrip"><img src="img/rep4.jpg" class="d-block w-100" alt="..."></a>
+                                        <!-- <img src="img/book2.jpg" class="d-block w-100" alt="..."> -->
+                                    </div>
+                                    <div class="carousel-item ">
+                                        <a href="img/rep5.jpg" data-lightbox="roadtrip"><img src="img/rep5.jpg" class="d-block w-100" alt="..."></a>
+                                        <!-- <img src="img/book2.jpg" class="d-block w-100" alt="..."> -->
+                                    </div>
+                                    <div class="carousel-item ">
+                                        <a href="img/rep6.jpg" data-lightbox="roadtrip"><img src="img/rep6.jpg" class="d-block w-100" alt="..."></a>
+                                        <!-- <img src="img/book2.jpg" class="d-block w-100" alt="..."> -->
+                                    </div>
+                                    <div class="carousel-item ">
+                                        <a href="img/rep1.jpg" data-lightbox="roadtrip"><img src="img/rep1.jpg" class="d-block w-100" alt="..."></a>
+                                        <!-- <img src="img/book2.jpg" class="d-block w-100" alt="..."> -->
+                                    </div>
+                                   
+                                </div>
+                            </div>
+    
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <!-- <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a> -->
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <!-- <h3 class="mb-0">$149.00</h3> --> 
+                            <h5 class="mb-4">SBI CSR initiative on Republic Day</h5>
+                            <div class="mb-3">
+                                <!-- <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small> -->
+                                <small>We are honored to be part of the SBI CSR initiative, where we have distributed hearing aids, wheelchairs, and tricycles to individuals with special abilities.
+                                </small>
+                            </div>
+                        </div>
+                        <div class="d-flex border-top">
+                            <!-- <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Courses End -->
+
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+               
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            
+                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <a href="img/cook1.jpg" data-lightbox="roadtrip"><img src="img/cook1.jpg" class="d-block w-100" alt="..."></a>
+                                        <!-- <img src="img/cook1.jpg" class="d-block w-100" alt="..."> -->
+                                    </div>
+                                    <div class="carousel-item ">
+                                        <a href="img/cook2.jpg" data-lightbox="roadtrip"><img src="img/cook2.jpg" class="d-block w-100" alt="..."></a>
+                                        <!-- <img src="img/cook2.jpg" class="d-block w-100" alt="..."> -->
+                                    </div>
+                                    <div class="carousel-item ">
+                                        <a href="img/cook3.jpg" data-lightbox="roadtrip"><img src="img/cook3.jpg" class="d-block w-100" alt="..."></a>
+                                        <!-- <img src="img/cook3.jpg" class="d-block w-100" alt="..."> -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <!--<a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a>-->
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <!-- <h3 class="mb-0">$149.00</h3> -->
+                            <h5 class="mb-4">Homely Food Delicacies</h5>
+                            <div class="mb-3">
+                                <!-- <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small> -->
+                                <small>Home cooked meals prepared by Shabana Ji, Deputy Director of the Bihar Chapter for the senior citizens of an old age home.</small>
+                            </div>
+                            <br>
+                        </div>
+                        <div class="d-flex border-top">
+                            <!-- <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            
+                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <a href="img/video1.jpg" data-lightbox="roadtrip"><img src="img/video1.jpg" class="d-block w-100" alt="..."></a>
+                                        <!-- <img src="img/video1.jpg" class="d-block w-100" alt="..."> -->
+                                    </div>
+                                    <div class="carousel-item ">
+                                        <a href="img/video2.jpg" data-lightbox="roadtrip"><img src="img/video2.jpg" class="d-block w-100" alt="..."></a>
+                                        <!-- <img src="img/video2.jpg" class="d-block w-100" alt="..."> -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <!--<a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a>-->
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <!-- <h3 class="mb-0">$149.00</h3> -->
+                            <h5 class="mb-4">Sexual Awareness Workshop</h5>
+                            <div class="mb-3">
+                                <!-- <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small> -->
+                                <small>Sahyog and IIW joined forces to host a talk show promoting sexual awareness among teenagers in remote schools. Advt. Seema Samridhi added valuable insights to the event.</small>
+                            </div>
+                            
+                        </div>
+                        <div class="d-flex border-top">
+                            <!-- <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                        
+                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <a href="img/game1.jpg" data-lightbox="roadtrip"><img src="img/game1.jpg" class="d-block w-100" alt="..."></a>
+                                        <!-- <img src="img/game1.jpg" class="d-block w-100" alt="..."> -->
+                                    </div>
+                                    <div class="carousel-item ">
+                                        <a href="img/game2.jpg" data-lightbox="roadtrip"><img src="img/game2.jpg" class="d-block w-100" alt="..."></a>
+                                        <!-- <img src="img/game2.jpg" class="d-block w-100" alt="..."> -->
+                                    </div>
+                                    <div class="carousel-item ">
+                                        <a href="img/pic2.jpeg" data-lightbox="roadtrip"><img src="img/pic2.jpeg" class="d-block w-100" alt="..."></a>
+                                        <!-- <img src="img/pic2.jpeg" class="d-block w-100" alt="..."> -->
+                                    </div>
+                                    <div class="carousel-item ">
+                                        <a href="img/pic3.jpeg" data-lightbox="roadtrip"><img src="img/pic3.jpeg" class="d-block w-100" alt="..."></a>
+                                        <!-- <img src="img/pic3.jpeg" class="d-block w-100" alt="..."> -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <!-- <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a> -->
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <!-- <h3 class="mb-0">$149.00</h3> -->
+                            <h5 class="mb-4">Activities for orphanage</h5>
+                            <div class="mb-3">
+                                <!-- <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small> -->
+                                <small>Team Sahyog have organised mathematical games, raised awareness
+                                     amongst the children regarding menstruation and sexual awareness.</small>
+                            </div>
+                           <br>
+                        </div>
+                        <div class="d-flex border-top">
+                            <!-- <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--section start-->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <!-- <h6 class="section-title bg-white text-center text-primary px-3">work</h6>
+                <h1 class="mb-5">Our Work</h1> -->
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+
+                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <a href="img/book1.jpg" data-lightbox="roadtrip"><img src="img/book1.jpg" class="d-block w-100" alt="..."></a>
+                                        <!-- <img src="img/book1.jpg" class="d-block w-100" alt="..."> -->
+                                    </div>
+                                    <div class="carousel-item ">
+                                        <a href="img/book2.jpg" data-lightbox="roadtrip"><img src="img/book2.jpg" class="d-block w-100" alt="..."></a>
+                                        <!-- <img src="img/book2.jpg" class="d-block w-100" alt="..."> -->
+                                    </div>
+                                    <div class="carousel-item ">
+                                        <a href="img/book4.jpg" data-lightbox="roadtrip"><img src="img/book4.jpg" class="d-block w-100" alt="..."></a>
+                                        <!-- <img src="img/book4.jpg" class="d-block w-100" alt="..."> -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <!-- <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a> -->
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <!-- <h3 class="mb-0">$149.00</h3> -->
+                            <h5 class="mb-4">Distribution of Stationery Items</h5>
+                            <div class="mb-3">
+                                <!-- <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small> -->
+                                
+                                     <small>Stationery items were distributed by team Sahyog to some orphanage children.</small>
+                            </div>
+                            <br/>
+                        </div>
+                        <div class="d-flex border-top">
+                            <!-- <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <a href="img/san.jpg" data-lightbox="roadtrip"><img src="img/san.jpg" class="d-block w-100" alt="..."></a>
+                            <!-- <img class="img-fluid" src="img/san.jpg" alt=""> -->
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <!-- <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a> -->
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <!-- <h3 class="mb-0">$149.00</h3> -->
+                            <h5 class="mb-4">Humble Meetings </h5>
+                            <div class="mb-3">
+                                <!-- <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small> -->
+                                <small>Dr. Sanya Sharma with Former High Commissioner of India, Ms.Ruchi Ghanshyam.</small>
+                            </div>
+                           
+                        </div>
+                        <div class="d-flex border-top">
+                            <!-- <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <a href="img/pad2.jpg" data-lightbox="roadtrip"><img src="img/pad2.jpg" class="d-block w-100" alt="..."></a>
+                                        <!-- <img src="img/sta1.jpg" class="d-block w-100" alt="..."> -->
+                                    </div>
+                                    <div class="carousel-item ">
+                                        <a href="img/pad3.jpg" data-lightbox="roadtrip"><img src="img/pad3.jpg" class="d-block w-100" alt="..."></a>
+                                        <!-- <img src="img/sta.jpg" class="d-block w-100" alt="..."> -->
+                                    </div>
+                                    <div class="carousel-item ">
+                                        <a href="img/pad4.jpg" data-lightbox="roadtrip"><img src="img/pad4.jpg" class="d-block w-100" alt="..."></a>
+                                        <!-- <img src="img/sta2.jpg" class="d-block w-100" alt="..."> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <img class="img-fluid" src="img/san.jpg" alt=""> -->
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <!-- <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a> -->
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <!-- <h3 class="mb-0">$149.00</h3> -->
+                            <h5 class="mb-4">Distribution of Sanitary Pads </h5>
+                            <div class="mb-3">
+                                <!-- <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small> -->
+                                <small>Distribution of Sanitry Pads to Acid Attack Survivors.</small>
+                            </div>
+                           
+                        </div>
+                        <div class="d-flex border-top">
+                            <!-- <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--section end-->
+
+   <!--section second-->
+ <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <!-- <h6 class="section-title bg-white text-center text-primary px-3">work</h6>
+                <h1 class="mb-5">Our Work</h1> -->
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+
+                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <a href="img/ghaziabad.jpg" data-lightbox="roadtrip"><img src="img/ghaziabad.jpg" class="d-block w-100" alt="..."></a>
+                                        <!-- <img src="img/book1.jpg" class="d-block w-100" alt="..."> -->
+                                    </div>
+                                    <!-- <div class="carousel-item ">
+                                        <a href="img/book2.jpg" data-lightbox="roadtrip"><img src="img/book2.jpg" class="d-block w-100" alt="..."></a>
+                                       
+                                    </div>
+                                    <div class="carousel-item ">
+                                        <a href="img/book4.jpg" data-lightbox="roadtrip"><img src="img/book4.jpg" class="d-block w-100" alt="..."></a>
+                                      
+                                    </div> -->
+                                </div>
+                            </div>
+
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <!-- <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a> -->
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <!-- <h3 class="mb-0">$149.00</h3> -->
+                            <h5 class="mb-4">Distribution of Rashan in Ghaziabad</h5>
+                            <div class="mb-3">
+                                <!-- <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small> -->
+                                
+                                     <small>Sahyog Samvriddhi Foundation in collaboration with Aadrika foundation, helped distribute ration to 70 families in a slum area of Ghaziabad, Uttar Pradesh.</small>
+                            </div>
+                            <br/>
+                        </div>
+                        <div class="d-flex border-top">
+                            <!-- <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <a href="img/patna.jpg" data-lightbox="roadtrip"><img src="img/patna.jpg" class="d-block w-100" alt="..."></a>
+                            <!-- <img class="img-fluid" src="img/san2.jpg" alt=""> -->
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <!-- <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a> -->
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <!-- <h3 class="mb-0">$149.00</h3> --> 
+                            <h5 class="mb-4">Distribution of Rashan in Patna, Bihar</h5>
+                            <div class="mb-3">
+                                <!-- <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small> -->
+                                <small>Rashan Drive by Sahyog Samvriddhi Foundation in collaboration with HRS for the underprivileged women who are dependent on sex trade to earn a living. </small>
+                            </div>
+                            <br/>
+                        </div>
+                        <div class="d-flex border-top">
+                            <!-- <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <a href="img/san.jpg" data-lightbox="roadtrip"><img src="img/rashan.jpg" class="d-block w-100" alt="..."></a>
+                            <!-- <img class="img-fluid" src="img/san.jpg" alt=""> -->
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <!-- <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a> -->
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <!-- <h3 class="mb-0">$149.00</h3> -->
+                            <h5 class="mb-4">Rashan for widows and orphan </h5>
+                            <div class="mb-3">
+                                <!-- <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small> -->
+                                <small>Our Rashan drive in Raxaul provided assistance to the underprivileged, as well as widows and orphans who lost their earning member due to the impact of COVID-19. We express our heartfelt gratitude to the IIT alumni in London and NRI Support India for their generous help and support.</small>
+                            </div>
+                           <br>
+                        </div>
+                        <div class="d-flex border-top">
+                            <!-- <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+   <!--section second-->
+
+
+   <!--section third-->
+   <div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <!-- <h6 class="section-title bg-white text-center text-primary px-3">work</h6>
+            <h1 class="mb-5">Our Work</h1> -->
+        </div>
+        <div class="row g-4 justify-content-center">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="course-item bg-light">
+                    <div class="position-relative overflow-hidden">
+
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <a href="img/rashan2.jpg" data-lightbox="roadtrip"><img src="img/rashan2.jpg" class="d-block w-100" alt="..."></a>
+                                    <!-- <img src="img/book1.jpg" class="d-block w-100" alt="..."> -->
+                                </div>
+                                 <!-- <div class="carousel-item ">
+                                    <a href="img/book2.jpg" data-lightbox="roadtrip"><img src="img/book2.jpg" class="d-block w-100" alt="..."></a>
+                                
+                                </div>
+                                <div class="carousel-item ">
+                                    <a href="img/book4.jpg" data-lightbox="roadtrip"><img src="img/book4.jpg" class="d-block w-100" alt="..."></a>
+                                    
+                                </div>  -->
+                            </div>
+                        </div>
+
+                        <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                            <!-- <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a> -->
+                        </div>
+                    </div>
+                    <div class="text-center p-4 pb-0">
+                        <!-- <h3 class="mb-0">$149.00</h3> -->
+                        <h5 class="mb-4">Distribution of Rashan in Noida</h5>
+                        <div class="mb-3">
+                            <!-- <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small> -->
+                            
+                                 <small>Sahyog Samvriddhi Foundation assisting in ration drive for household help in Noida</small>
+                        </div>
+                        <br/><br>
+                    </div>
+                    <div class="d-flex border-top">
+                        <!-- <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                        <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="course-item bg-light">
+                    <div class="position-relative overflow-hidden">
+                            
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <a href="img/ra4.jpg" data-lightbox="roadtrip"><img src="img/ra4.jpg" class="d-block w-100" alt="..."></a>
+                                   
+                                </div>
+                                <div class="carousel-item ">
+                                    <a href="img/ra3.jpg" data-lightbox="roadtrip"><img src="img/ra3.jpg" class="d-block w-100" alt="..."></a>
+                                    <!-- <img src="img/edu2.jpg" class="d-block w-100" alt="..."> -->
+                                </div>
+                                <div class="carousel-item ">
+                                    <a href="img/ra2.jpg" data-lightbox="roadtrip"><img src="img/ra2.jpg" class="d-block w-100" alt="..."></a>
+                                    <!-- <img src="img/edu2.jpg" class="d-block w-100" alt="..."> -->
+                                </div>
+                                <div class="carousel-item ">
+                                    <a href="img/ra1.jpg" data-lightbox="roadtrip"><img src="img/ra1.jpg" class="d-block w-100" alt="..."></a>
+                                    <!-- <img src="img/edu2.jpg" class="d-block w-100" alt="..."> -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                            <!--<a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a>-->
+                        </div>
+                    </div>
+                    <div class="text-center p-4 pb-0">
+                        <!-- <h3 class="mb-0">$149.00</h3> --> 
+                        <h5 class="mb-4">Distribution of Rashan in Karnataka</h5>
+                        <div class="mb-3">
+                            <!-- <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small> -->
+                            <small>Our rashan drive in Belgam to the underprivileged (affected by COVID). </small>
+                        </div>
+                        <br/>
+                    </div>
+                    <div class="d-flex border-top">
+                        <!-- <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                        <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="course-item bg-light">
+                    <div class="position-relative overflow-hidden">
+                            
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <a href="img/h4.jpg" data-lightbox="roadtrip"><img src="img/h4.jpg" class="d-block w-100" alt="..."></a>
+                                   
+                                </div>
+                                <div class="carousel-item ">
+                                    <a href="img/h3.jpg" data-lightbox="roadtrip"><img src="img/h3.jpg" class="d-block w-100" alt="..."></a>
+                                    <!-- <img src="img/edu2.jpg" class="d-block w-100" alt="..."> -->
+                                </div>
+                                <div class="carousel-item ">
+                                    <a href="img/h2.jpg" data-lightbox="roadtrip"><img src="img/h2.jpg" class="d-block w-100" alt="..."></a>
+                                    <!-- <img src="img/edu2.jpg" class="d-block w-100" alt="..."> -->
+                                </div>
+                                <div class="carousel-item ">
+                                    <a href="img/h1.jpg" data-lightbox="roadtrip"><img src="img/h1.jpg" class="d-block w-100" alt="..."></a>
+                                    <!-- <img src="img/edu2.jpg" class="d-block w-100" alt="..."> -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                            <!--<a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a>-->
+                        </div>
+                    </div>
+                    <div class="text-center p-4 pb-0">
+                        <!-- <h3 class="mb-0">$149.00</h3> -->
+                        <h5 class="mb-4">Distribution of Home made food </h5>
+                        <div class="mb-3">
+                            <!-- <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small> -->
+                            <small>Our rashan distribution to underprivileged in Patna, Bagha and Raxaul. Homemade food being cooked by the females of our house (for the distribution to underprivileged)</small>
+                        </div>
+                       
+                    </div>
+                    <div class="d-flex border-top">
+                        <!-- <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                        <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+   <!--section third-->
+
+   <!--section fourth-->
+   <div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <!-- <h6 class="section-title bg-white text-center text-primary px-3">work</h6>
+            <h1 class="mb-5">Our Work</h1> -->
+        </div>
+        <div class="row g-4 justify-content-center">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="course-item bg-light">
+                    <div class="position-relative overflow-hidden">
+
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <a href="img/m1.jpg" data-lightbox="roadtrip"><img src="img/m1.jpg" class="d-block w-100" alt="..."></a>
+                                    <!-- <img src="img/book1.jpg" class="d-block w-100" alt="..."> -->
+                                </div>
+                                <div class="carousel-item ">
+                                    <a href="img/m2.jpg" data-lightbox="roadtrip"><img src="img/m2.jpg" class="d-block w-100" alt="..."></a>
+                                    <!-- <img src="img/book2.jpg" class="d-block w-100" alt="..."> -->
+                                </div>
+                                <div class="carousel-item ">
+                                    <a href="img/m3.jpg" data-lightbox="roadtrip"><img src="img/m3.jpg" class="d-block w-100" alt="..."></a>
+                                    <!-- <img src="img/book4.jpg" class="d-block w-100" alt="..."> -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                            <!-- <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a> -->
+                        </div>
+                    </div>
+                    <div class="text-center p-4 pb-0">
+                        <!-- <h3 class="mb-0">$149.00</h3> -->
+                        <h5 class="mb-4">Distribution of Rashan in Maharashtra</h5>
+                        <div class="mb-3">
+                            <!-- <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small> -->
+                            
+                                 <small>Our rashan distribution to stranded labourers in Thane.</small>
+                        </div>
+                        <br/>
+                    </div>
+                    <div class="d-flex border-top">
+                        <!-- <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                        <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="course-item bg-light">
+                    <div class="position-relative overflow-hidden">
+
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <a href="img/l1.jpg" data-lightbox="roadtrip"><img src="img/l1.jpg" class="d-block w-100" alt="..."></a>
+                                    <!-- <img src="img/book1.jpg" class="d-block w-100" alt="..."> -->
+                                </div>
+                                <div class="carousel-item ">
+                                    <a href="img/l2.jpg" data-lightbox="roadtrip"><img src="img/l2.jpg" class="d-block w-100" alt="..."></a>
+                                    <!-- <img src="img/book2.jpg" class="d-block w-100" alt="..."> -->
+                                </div>
+                                <div class="carousel-item ">
+                                    <a href="img/l3.jpg" data-lightbox="roadtrip"><img src="img/l3.jpg" class="d-block w-100" alt="..."></a>
+                                    <!-- <img src="img/book4.jpg" class="d-block w-100" alt="..."> -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                            <!-- <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a> -->
+                        </div>
+                    </div>
+                    <div class="text-center p-4 pb-0">
+                        <!-- <h3 class="mb-0">$149.00</h3> --> 
+                        <h5 class="mb-4">Distribution of food and clothing in Lucknow</h5>
+                        <div class="mb-3">
+                            <!-- <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small> -->
+                            <small>Collaboration with Sheroes Cafe for the Clothing and Food Distribution Drive at Lucknow, UP.</small>
+                        </div>
+                        <br/>
+                    </div>
+                    <div class="d-flex border-top">
+                        <!-- <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                        <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="course-item bg-light">
+                    <div class="position-relative overflow-hidden">
+
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <a href="img/g1.jpg" data-lightbox="roadtrip"><img src="img/g1.jpg" class="d-block w-100" alt="..."></a>
+                                    <!-- <img src="img/book1.jpg" class="d-block w-100" alt="..."> -->
+                                </div>
+                                <div class="carousel-item ">
+                                    <a href="img/g2.jpg" data-lightbox="roadtrip"><img src="img/g2.jpg" class="d-block w-100" alt="..."></a>
+                                    <!-- <img src="img/book2.jpg" class="d-block w-100" alt="..."> -->
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                            <!-- <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a> -->
+                        </div>
+                    </div>
+                    <div class="text-center p-4 pb-0">
+                        <!-- <h3 class="mb-0">$149.00</h3> -->
+                        <h5 class="mb-4">Distribution of Rashan in Gurgaon </h5>
+                        <div class="mb-3">
+                            <!-- <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small> -->
+                            <small>Our rashan distribution to stranded labourers in Gurgaon. </small>
+                        </div>
+                       <br>
+                    </div>
+                    <div class="d-flex border-top">
+                        <!-- <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                        <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+   <!--section fourth-->
+
+    
+        
+
+    <!-- Footer Start --><div class="container-fluid bg-dark text-light footer pt-3 mt-3 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-3">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Useful Links</h4>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="contact.php">Contact Us</a>
+                    <a class="btn btn-link" href="privacy.html">Privacy Policy</a>
+                    <a class="btn btn-link" href="condition.html">Terms & Condition</a>
+                    <a class="btn btn-link" href="contact.php">FAQs & Help</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Contact US</h4>
+                    <small class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>House No.-K2/68, Kisan Colony, &nbsp;Phase-2, Pragati Path, Anisabad, Phulwari, Patna-800002</small>
+                    <br/>
+                    <small class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91-9718179291</small>
+                    <br/>
+                    <small class="mb-2"><i class="fa fa-envelope me-3"></i>sahyogfoundation25@gmail.com</small>
+                    
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Our Gallery</h4>
+                    <div class="row g-2 pt-2">
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/medi.jpeg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/medi2.jpeg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/medi3.jpeg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/medi4.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/medi.jpeg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/medi2.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Social Links</h4>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href="https://instagram.com/sahyogsamvriddhifoundation_?igshid=ZGUzMzM3NWJiOQ=="><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/profile.php?id=100091244824502&mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://youtube.com/@sahyogsamvriddhifoundation25"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://twitter.com/samvirdhi?t=2QhfX_w-xaEZ-9Y6mVDqCA&s=09"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="" href="#">Sahyog Samvriddhi Foundation</a>@2023.
+
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        <!-- Designed By <a class="" href="">Developer</a> -->
+                    </div>
+                    <!-- <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="">Home</a>
+                            <a href="">Cookies</a>
+                            <a href="">Help</a>
+                            <a href="">FQAs</a>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
