@@ -20,13 +20,13 @@ if(isset($_POST['submit'])){
       $mail->isSMTP();
       $mail->Host = 'smtp.gmail.com';
       $mail->SMTPAuth = true;
-      $mail->Username = 'kishwarijit@gmail.com';
-      $mail->Password = 'pjmczqmkxowwzdfo';
+      $mail->Username = '';
+      $mail->Password = '';
       $mail->SMTPSecure = "tls";
       $mail->Port = '587';
 
-      $mail->setFrom('kishwarijit@gmail.com');
-      $mail->addAddress('kishwarijit@gmail.com');
+      $mail->setFrom('');
+      $mail->addAddress('');
      
       // $mail->addAttachment($_FILES['file']['tmp_name'],$_FILES['file']['name']);  //Optional name
 
